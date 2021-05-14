@@ -1,0 +1,35 @@
+.should {
+    min-height: 800px;
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+    }
+    &__header {
+        margin: 103px 0 0 106px;
+        font-size: 16px;
+        line-height: 12px;
+        color: #22356F;
+        font-weight: 300;;
+    }
+    &__descr {
+        margin: 225px 0 0 106px;
+        font-family: Larsseit;
+        font-size: 36px;
+        line-height: 53px;
+        color: #22356F;
+        font-weight: 700;
+        span {
+            color: #6CD3E1;
+        }
+    }
+    &__subdescr {
+        margin: 152px 0 0 106px;
+        font-size: 16px;
+        line-height: 23px;
+        color: #FAB63E;
+        font-weight: 700;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
